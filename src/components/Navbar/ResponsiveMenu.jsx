@@ -21,8 +21,8 @@ const ResponsiveMenu = ({ showMenu }) => {
         </div>
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
-            {Navlinks.map((data) => (
-              <li>
+            {Navlinks.map((data,index) => (
+              <li key={index}>
                 <a href={data.link} className="mb-5 inline-block">
                   {data.name}
                 </a>
@@ -32,9 +32,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         </nav>
       </div>
       <div className="footer">
-        <h1>
-          Made with ❤ by <a href="https://dilshad-ahmed.github.io/">Dilshad</a>{" "}
-        </h1>
+        <h1>Made with Inext~ets</h1>
       </div>
     </div>
   );

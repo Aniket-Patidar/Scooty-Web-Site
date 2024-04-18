@@ -47,9 +47,9 @@ const Services = () => {
             </h1>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {skillsData.map((skill) => (
+            {skillsData.map((skill, index) => (
               <div
-                key={skill.name}
+                key={index}
                 data-aos="fade-up"
                 data-aos-delay={skill.aosDelay}
                 className="card text-center group space-y-3 sm:space-y-6 p-4 sm:py-16 bg-dark  hover:bg-primary duration-300 text-white hover:text-black rounded-lg"

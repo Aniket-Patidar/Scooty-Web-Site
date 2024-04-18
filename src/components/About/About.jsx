@@ -1,5 +1,5 @@
 import React from "react";
-import CarPng from "../../assets/car1.png";
+import CarPng from "../../assets/image/s5.png";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
             <img
               src={CarPng}
               alt=""
-              className="sm:scale-125 sm:-translate-x-11 max-h-[300px] drop-shadow-[2px_10px_6px_rgba(0,0,0,0.50)]"
+              className="sm:scale-125 sm:-translate-x-11 sm:w-[800px] md:w-[600px]  "
             />
           </div>
           <div>
@@ -22,12 +22,10 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, magnam! Tenetur odio quo et maxime?
+              Welcome to Wroley Electric Scooter, where innovation meets sustainability in the heart of Delhi. Our electric scooters redefine urban commuting with cutting-edge technology and eco-friendly design. Experience the thrill of emission-free rides, contributing to a cleaner and greener cityscape. At Wroley Electric Scooter, we prioritize efficiency without compromising style, ensuring a seamless blend of performance and aesthetics.
               </p>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
+              As advocates of green living, we proudly support government incentives for electric vehicles, making your choice not only environmentally responsible but economically rewarding. Visit our showroom to test ride the future of urban mobility with Wroley Electric
               </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started
