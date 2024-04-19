@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { CSSTransition } from "react-transition-group"; // Import CSSTransition
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -34,9 +35,19 @@ const Layout = ({ children }) => {
 
   return (
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
-      <Navbar theme={theme} setTheme={setTheme} />
-      {children}
-      <Footer />
+      <CSSTransition
+        in={true}
+        appear={true}
+        timeout={500}
+        classNames="page"
+        unmountOnExit
+      >
+        <div>
+          <Navbar theme={theme} setTheme={setTheme} />
+          {children}
+          <Footer />
+        </div>
+      </CSSTransition>
     </div>
   );
 };

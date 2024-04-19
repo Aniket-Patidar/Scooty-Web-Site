@@ -13,7 +13,6 @@ import Contact from "../components/Contact/Contact";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Footer from "../components/Footer/Footer";
 import Layout from "../components/Layout";
-import CustomCursor from "../components/CostumCoursor";
 
 const App = () => {
   // dark mode start

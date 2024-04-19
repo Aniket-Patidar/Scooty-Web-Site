@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import blacks from "../../assets/image/s1.png";
 import whites from "../../assets/image/s3.webp";
 import AOS from "aos";
-import CustomCursor from "../CostumCoursor";
 
 const Hero = ({ theme }) => {
   useEffect(() => {
@@ -11,7 +10,6 @@ const Hero = ({ theme }) => {
   return (
     <div className="dark:bg-black dark:text-white duration-300 ">
       <div className="container min-h-[620px] flex">
-      <CustomCursor></CustomCursor>
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
           <div
             data-aos="zoom-in"
