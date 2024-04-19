@@ -18,15 +18,22 @@ const About = () => {
                     About me
                   </h2>
                   <p className="">
-                    Donec porttitor, enim ut dapibus lobortis, lectus sem
-                    tincidunt dui, eget ornare lectus ex non libero. Nam rhoncus
-                    diam ultrices porttitor laoreet. Ut mollis fermentum ex, vel
-                    viverra lorem volutpat sodales. In ornare porttitor odio sit
-                    amet laoreet. Sed laoreet, nulla a posuere ultrices, purus
-                    nulla tristique turpis, hendrerit rutrum augue quam ut est.
-                    Fusce malesuada posuere libero, vitae dapibus eros facilisis
-                    euismod. Sed sed lobortis justo, ut tincidunt velit. Mauris
-                    in maximus eros.
+                    Welcome to Wroley Electric Scooter, where innovation meets
+                    sustainability in the heart of Delhi. Our electric scooters
+                    redefine urban commuting with cutting-edge technology and
+                    eco-friendly design. Experience the thrill of emission-free
+                    rides, contributing to a cleaner and greener cityscape. At
+                    Wroley Electric Scooter, we prioritize efficiency without
+                    compromising style, ensuring a seamless blend of performance
+                    and aesthetics. Say goodbye to fuel costs and high
+                    maintenance expenses—our scooters offer a cost-effective and
+                    eco-conscious solution for daily travel. As advocates of
+                    green living, we proudly support government incentives for
+                    electric vehicles, making your choice not only
+                    environmentally responsible but economically rewarding.
+                    Visit our showroom to test ride the future of urban mobility
+                    with Wroley Electric Scooter. Join us on the journey to a
+                    sustainable and smarter Delhi.
                   </p>
                 </div>
               </main>

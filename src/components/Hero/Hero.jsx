@@ -16,7 +16,7 @@ const Hero = ({ theme }) => {
             data-aos-duration="1500"
             data-aos-once="false"
             className="order-1 sm:order-2"
-          > 
+          >
             <img
               src={theme === "dark" ? blacks : whites}
               alt=""
@@ -35,9 +35,12 @@ const Hero = ({ theme }) => {
               Scoter
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Experience the thrill of effortless city cruising with our
-              electric scooter. Say goodbye to traffic and hello to eco-friendly
-              mobility
+              Your Journey, Our Priority: Best Electric Scooter in Delhi
+              Everything your New Electric Scooter is Available here! Wroley
+              Electric Scooter made for Your Journey. Investing in the Wroley
+              Electric Scooter not only saves you money on fuel and maintenance
+              costs but also qualifies you for various government subsidies and
+              incentives for electric vehicle owners in Delhi.
             </p>
             <button
               data-aos="fade-up"

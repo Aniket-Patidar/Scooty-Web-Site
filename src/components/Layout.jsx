@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { CSSTransition } from "react-transition-group"; // Import CSSTransition
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaWhatsapp } from "react-icons/fa";
+import { FiPhone } from "react-icons/fi";
 
 // Component import
 import Navbar from "../components/Navbar/Navbar";
@@ -35,19 +36,25 @@ const Layout = ({ children }) => {
 
   return (
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
-      <CSSTransition
-        in={true}
-        appear={true}
-        timeout={500}
-        classNames="page"
-        unmountOnExit
-      >
-        <div>
-          <Navbar theme={theme} setTheme={setTheme} />
-          {children}
-          <Footer />
+      <div>
+        <Navbar theme={theme} setTheme={setTheme} />
+        {children}
+        <Footer />
+      </div>
+      <div className="fixed top-[50%] -translate-y-[50%] right-2 space-y-5">
+        {/* WhatsApp Button */}
+        <div className="w-[60px] h-[60px] right-2  cursor-pointer bg-[#25D366] rounded-full flex items-center justify-center">
+          <a href="https://wa.me/6266302210">
+            <FaWhatsapp className="text-2xl text-white dark:text-black" />
+          </a>
         </div>
-      </CSSTransition>
+        {/* Phone Call Button */}
+        <div className="w-[60px] h-[60px] cursor-pointer top-[50%] bg-[#0C93CB] rounded-full flex items-center justify-center">
+          <a href="tel:+16266302210">
+            <FiPhone className="text-2xl text-white dark:text-black" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

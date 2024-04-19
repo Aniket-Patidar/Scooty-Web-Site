@@ -22,10 +22,24 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-              Welcome to Wroley Electric Scooter, where innovation meets sustainability in the heart of Delhi. Our electric scooters redefine urban commuting with cutting-edge technology and eco-friendly design. Experience the thrill of emission-free rides, contributing to a cleaner and greener cityscape. At Wroley Electric Scooter, we prioritize efficiency without compromising style, ensuring a seamless blend of performance and aesthetics.
+                Welcome to Wroley Electric Scooter, where innovation meets
+                sustainability in the heart of Delhi. Our electric scooters
+                redefine urban commuting with cutting-edge technology and
+                eco-friendly design. Experience the thrill of emission-free
+                rides, contributing to a cleaner and greener cityscape. At
+                Wroley Electric Scooter, we prioritize efficiency without
+                compromising style, ensuring a seamless blend of performance and
+                aesthetics.
               </p>
               <p data-aos="fade-up">
-              As advocates of green living, we proudly support government incentives for electric vehicles, making your choice not only environmentally responsible but economically rewarding. Visit our showroom to test ride the future of urban mobility with Wroley Electric
+                Say goodbye to fuel costs and high maintenance expenses—our
+                scooters offer a cost-effective and eco-conscious solution for
+                daily travel. As advocates of green living, we proudly support
+                government incentives for electric vehicles, making your choice
+                not only environmentally responsible but economically rewarding.
+                Visit our showroom to test ride the future of urban mobility
+                with Wroley Electric Scooter. Join us on the journey to a
+                sustainable and smarter Delhi.
               </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started

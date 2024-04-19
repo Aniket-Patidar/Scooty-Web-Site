@@ -85,8 +85,8 @@ const Contact = () => {
                             Our Location
                           </h4>
                           <p className="lg:text-[14px]  text-[12px] text-body-color dark:text-dark-6 text-dark dark:text-white ">
-                            GOKUL MARKET, MITTAL COLLEGE, PLOT NO 5, Karond,
-                            Bhopal, Madhya Pradesh 462038
+                            L-2/103 S/F Office Mahavir Nagar Extension, New
+                            Delhi, 110018
                           </p>
                         </div>
                       </div>
@@ -100,7 +100,7 @@ const Contact = () => {
                             WhatsApp Number
                           </h4>
                           <p className="text-sm lg:text-[14px]  text-body-color dark:text-dark-6">
-                            9827566365
+                            +91-9891780956
                           </p>
                         </div>
                       </div>
@@ -113,7 +113,7 @@ const Contact = () => {
                             Phone Number
                           </h4>
                           <p className="text-sm lg:text-[14px]  text-body-color dark:text-dark-6">
-                            9131383718
+                            +91-9891780956
                           </p>
                         </div>
                       </div>
@@ -127,7 +127,7 @@ const Contact = () => {
                             Email Address
                           </h4>
                           <p className="text-sm lg:text-[14px] text-body-color dark:text-dark-6">
-                            fitnessiconny@gmail.com
+                            Info@Wroleyelectricscooter.In
                           </p>
                         </div>
                       </div>

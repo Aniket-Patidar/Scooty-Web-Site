@@ -40,7 +40,7 @@ const Navbar = ({ theme, setTheme }) => {
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <Link to={"/"}>
-            <span className="text-3xl font-bold font-serif">Scooty</span>
+            <img src="logo.webp" className=" h-[60px] object-cover "></img>
           </Link>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
